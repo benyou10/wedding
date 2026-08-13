@@ -1,10 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { DateTime, Duration } from "luxon";
-import { BiMap, BiTimeFive, BiInfoCircle } from "react-icons/bi";
+import { BiMap } from "react-icons/bi";
 
 /**
  * COMPOSANT : COMPTE À REBOURS
@@ -75,7 +74,7 @@ const WeddingHero = () => {
     <section className="relative min-h-screen flex items-center justify-center px-[5%] py-20 overflow-hidden">
       <div className="relative z-10 mx-auto flex w-full max-w-3xl flex-col items-center text-center text-white">
         <h4 className="font-light tracking-[0.5em] uppercase mb-6 text-xs md:text-sm text-[#decba4]">
-          L'union de deux cœurs
+          L&apos;union de deux cœurs
         </h4>
         <h1 className="font-serif text-7xl md:text-9xl mb-8 italic drop-shadow-2xl">
           Thouria & Salim
@@ -90,7 +89,6 @@ const WeddingHero = () => {
         </div>
       </div>
 
-      {/* Arrière-plan avec une image de salle de fête luxueuse */}
       <div className="absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" 
@@ -115,12 +113,11 @@ const WeddingLocation = () => {
           <h2 className="font-serif text-5xl md:text-7xl text-stone-800 mb-6">Le Palais Al Andalous</h2>
           <div className="h-px w-24 bg-[#c5a059] mb-8" />
           <p className="text-stone-600 text-lg max-w-2xl leading-relaxed italic">
-            "C’est avec une immense joie que nous vous convions à partager notre bonheur dans le cadre somptueux du Palais Al Andalous à Blida."
+            &quot;C&apos;est avec une immense joie que nous vous convions à partager notre bonheur dans le cadre somptueux du Palais Al Andalous à Blida.&quot;
           </p>
         </div>
 
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 items-start">
-          {/* Informations Pratiques */}
           <div className="space-y-12">
             <div className="group flex items-start gap-8 p-6 transition-all hover:bg-white hover:shadow-xl rounded-xl">
               <BiMap className="size-10 text-[#c5a059] shrink-0" />
@@ -137,15 +134,12 @@ const WeddingLocation = () => {
                   rel="noreferrer"
                   className="mt-6 inline-flex items-center text-[#c5a059] font-bold border-b-2 border-[#c5a059] pb-1 hover:text-stone-800 hover:border-stone-800 transition-all"
                 >
-                  Ouvrir l'itinéraire Google Maps
+                  Ouvrir l&apos;itinéraire Google Maps
                 </a>
               </div>
             </div>
-
-        
           </div>
 
-          {/* Carte Google Maps */}
           <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-2xl ring-8 ring-white">
             <iframe
               title="Plan Palais Al Andalous Blida"
@@ -169,20 +163,16 @@ const WeddingLocation = () => {
 export default function Page() {
   return (
     <main className="min-h-screen bg-white selection:bg-[#c5a059] selection:text-white">
-      {/* Hero Section */}
       <WeddingHero />
       
-      {/* Séparateur Élégant */}
       <div className="flex flex-col items-center py-16 bg-[#fdfbf7]">
         <div className="h-px w-32 bg-stone-200" />
         <span className="my-8 text-stone-300 font-serif italic text-4xl">S & T</span>
         <div className="h-px w-32 bg-stone-200" />
       </div>
 
-      {/* Section Lieu */}
       <WeddingLocation />
 
-      {/* Footer */}
       <footer className="py-20 text-center bg-stone-950 text-white">
         <h2 className="font-serif italic text-4xl mb-6 text-[#decba4]">Thouria & Salim</h2>
         <p className="text-white/30 text-[10px] tracking-[0.5em] uppercase">
@@ -190,7 +180,6 @@ export default function Page() {
         </p>
       </footer>
 
-      {/* Google Fonts & Custom Styles */}
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@200;300;400;600&display=swap');
         
