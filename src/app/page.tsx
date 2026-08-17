@@ -112,8 +112,8 @@ const WeddingLocation = () => {
           <span className="text-[#c5a059] text-sm tracking-[0.3em] uppercase mb-4 font-bold">Célébration</span>
        <div className="mx-auto max-w-3xl text-center">
   <p className="mb-6 font-serif text-3xl leading-relaxed text-stone-800 md:text-5xl">
-    Mademoiselle <span className="italic">Thouria</span> et Monsieur{" "}
-    <span className="italic">Salim</span>
+    Monsieur <span className="italic">Salim</span> et Mademoiselle{" "}
+    <span className="italic">Thouria</span>
   </p>
 
   <p className="font-serif text-xl leading-relaxed text-stone-700 md:text-2xl">
@@ -122,7 +122,7 @@ const WeddingLocation = () => {
   </p>
 
   <p className="mt-6 font-serif text-2xl leading-relaxed text-stone-800 md:text-4xl">
-    le samedi 20 mai 2027
+    le Mercredi 02 Septembre 2026
     <br />
     à quatre heures de l’après-midi.
   </p>
