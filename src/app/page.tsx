@@ -77,7 +77,7 @@ const WeddingHero = () => {
           L&apos;union de deux cœurs
         </h4>
         <h1 className="font-serif text-7xl md:text-9xl mb-8 italic drop-shadow-2xl">
-          Thouria & Salim
+          Salim & Thouria
         </h1>
         <p className="text-lg md:text-2xl font-light tracking-[0.2em] mb-12 uppercase">
           Mercredi 02 Septembre 2026
@@ -174,7 +174,7 @@ export default function Page() {
       <WeddingLocation />
 
       <footer className="py-20 text-center bg-stone-950 text-white">
-        <h2 className="font-serif italic text-4xl mb-6 text-[#decba4]">Thouria & Salim</h2>
+        <h2 className="font-serif italic text-4xl mb-6 text-[#decba4]">Salim & Thouria</h2>
         <p className="text-white/30 text-[10px] tracking-[0.5em] uppercase">
           02 • 09 • 2026 — Blida, Algérie
         </p>
