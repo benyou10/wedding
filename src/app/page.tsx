@@ -110,7 +110,10 @@ const WeddingLocation = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center mb-20">
           <span className="text-[#c5a059] text-sm tracking-[0.3em] uppercase mb-4 font-bold">Célébration</span>
-          <h2 className="font-serif text-5xl md:text-7xl text-stone-800 mb-6">Le Palais Al Andalous</h2>
+          <h2 className="font-serif text-5xl md:text-7xl text-stone-800 mb-6"> Mademoiselle Thouria et Monsieur Salim ont le plaisir et l’honneur de
+      vous inviter à partager avec eux la joie de la célébration de leur
+      mariage,le samedi 20 mai 2027 à quatre heures de
+      l’après-midi.</h2>
           <div className="h-px w-24 bg-[#c5a059] mb-8" />
           <p className="text-stone-600 text-lg max-w-2xl leading-relaxed italic">
             &quot;C&apos;est avec une immense joie que nous vous convions à partager notre bonheur dans le cadre somptueux du Palais Al Andalous à Blida.&quot;
